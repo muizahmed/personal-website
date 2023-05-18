@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muiz Ahmed</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--
+        Design Inspirations:
+    https://preview.colorlib.com/theme/schmidt
+    https://preview.colorlib.com/theme/clyde
+    https://preview.colorlib.com/theme/ronaldo
+    https://beckeyql.github.io/portfolio/
+
+        Wireframe:
+    https://balsamiq.cloud/skxu6xm/pmb3mui
+
+        Color Palette:
+    https://colorhunt.co/palette/03001c301e675b8fb9b6eada
+-->
+
+    <!--Navigation Bar (Fixed)-->
+    <section id="navbar">
+      <nav class="navbar fixed-top navbar-expand-md">
+        <div class="container-fluid d-flex">
+          <a class="navbar-brand ms-5" href="./index.html">Muiz Ahmed</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            MENU
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-5 justify-content-around">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--Introduction-->
+    <section id="intro">
+      <div class="container-fluid hero px-0 mx-0 mt-5">
+        <div class="row g-0">
+          <div
+            class="d-flex flex-column col-sm-12 col-md-6 col-lg-7 title px-5 py-sm-5 justify-content-center"
+          >
+            <h1
+              class="display-2 fw-bold text-body-emphasis lh-1 mt-5 mb-3 px-5"
+            >
+              I'm Name XYZ
+            </h1>
+            <h2 class="display-6 px-5">
+              A Lifelong Learner <br />&<br />
+              A Full-Stack Developer
+            </h2>
+            <div
+              class="d-grid gap-2 d-md-flex justify-content-md-start mx-5 py-3"
+            >
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                Hire Me
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-secondary btn-lg px-4"
+              >
+                <a href="#about" style="text-decoration: none; color: black"
+                  >More About Me
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-chevron-down"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="col-6 col-lg-5 profile d-none d-md-flex">
+            <img
+              src="./assets/images/jschmidt.png.webp"
+              class="d-flex profile-img mt-5 me-lg-5 mx-xl-5"
+              alt="Bootstrap Themes"
+              width="500"
+              height="610"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Statistics-->
+    <section id="stats">
+      <div class="container py-5">
+        <div class="row justify-content-between">
+          <div class="col-2 d-flex align-items-center">
+            <div
+              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <img src="./assets/briefcase.svg" alt="office briefcase" />
+            </div>
+            <div class="projects mt-3 mt-md-0">
+              <span class="display-6">45</span><br />
+              <span class="text-uppercase">Projects Completed</span>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div
+              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <img src="./assets/clock.svg" alt="clock" />
+            </div>
+            <div class="hours mt-3 mt-md-0">
+              <span class="display-6">1500</span><br />
+              <span class="text-uppercase">Hours Worked</span>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div
+              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <img src="./assets/graph.svg" alt="graph rising to the right" />
+            </div>
+            <div class="experience mt-3 mt-md-0">
+              <span class="display-6">3</span><br />
+              <span class="text-uppercase">Years of Experience</span>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div
+              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <img src="./assets/happy-face.svg" alt="happy face" />
+            </div>
+            <div class="client-satisfaction mt-3 mt-md-0">
+              <span class="display-6">100%</span><br />
+              <span class="text-uppercase">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--About Me-->
+    <section id="about">
+      <div class="container col-10 mt-5">
+        <div class="row d-flex g-0">
+          <div class="col-6 align-self-center">
+            <div
+              class="about-img"
+              style="background-image: url(./assets/images/about.jpg.webp)"
+            ></div>
+          </div>
+          <div class="col-6 px-5 py-5">
+            <div class="about-content">
+              <h2 class="display-4">About Me</h2>
+              <p class="about-me fs-5">
+                BS Computer Science student at University of London, excelling
+                on Upwork with a flawless job success rate. Transitioning
+                expertise through Python and Web Development bootcamps.
+              </p>
+              <table class="about-table fs-5">
+                <tbody>
+                  <tr>
+                    <td>
+                      <span class="label">Name:</span>
+                    </td>
+                    <td><span class="key ms-3">Muiz Ahmed</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="label">Date of birth:</span></td>
+                    <td><span class="key ms-3">November 05, 2002</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="label">Address:</span></td>
+                    <td><span class="key ms-3">Islamabad, Pakistan</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="label">Email:</span></td>
+                    <td><span class="key ms-3">muizahmedp@gmail.com</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="container pe-5 g-0">
+              <div
+                class="row hobbies d-flex justify-content-between flex-xl-nowrap flex-wrap py-5 align-content-between g-0"
+                style="row-gap: 10px"
+              >
+                <div class="col-6 col-md-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1">
+                  <div
+                    class="icon-circle-small text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1"
+                  >
+                    <img src="./assets/coloring.svg" alt="coloring" />
+                  </div>
+                  <div class="hobby mt-3 mt-md-0">
+                    <span>Coloring</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1">
+                  <div
+                    class="icon-circle-small text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1"
+                  >
+                    <img src="./assets/movies.svg" alt="movie" />
+                  </div>
+                  <div class="hobby mt-3 mt-md-0">
+                    <span>Movies</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1">
+                  <div
+                    class="icon-circle-small text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1"
+                  >
+                    <img src="./assets/plant.svg" alt="growing plant" />
+                  </div>
+                  <div class="hobby mt-3 mt-md-0">
+                    <span>Gardening</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1">
+                  <div
+                    class="icon-circle-small text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1"
+                  >
+                    <img src="./assets/running.svg" alt="running" />
+                  </div>
+                  <div class="hobby mt-3 mt-md-0">
+                    <span>Running</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Resume-->
+    <section id="resume"></section>
+    <!--Portfolio-->
+    <section id="portfolio"></section>
+    <!--Contact Me-->
+    <section id="contact"></section>
+    <!--Footer-->
+    <section id="footer"></section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

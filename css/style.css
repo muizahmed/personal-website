@@ -1,0 +1,102 @@
+﻿body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: whitesmoke;
+}
+
+.navbar-brand, .nav-link, .navbar-toggler-icon {
+    color: black;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hero .title {
+    background-color: #B6EADA;
+    height: auto;
+}
+
+.hero .profile {
+    background-color:#03001C;
+    height: auto;
+    overflow: hidden;
+}
+
+.hero .btn-primary {
+    background-color: #03001C;
+}
+
+.hero .btn-outline-secondary {
+    border-color: black;
+}
+
+.hero .btn-outline-secondary:hover {
+    background-color: #5B8FB9;
+    border-color: #5B8FB9;
+}
+
+#stats {
+    background-color: whitesmoke;
+    overflow:auto;
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #B6EADA;
+}
+
+.icon-circle img {
+    height: 30px;
+}
+
+.icon-circle-small {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #B6EADA;
+}
+
+.icon-circle-small img {
+    height: 20px;
+}
+
+.about-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 90vh;
+}
+
+.about-content h2 {
+    font-weight: 600;
+}
+
+.about-me {
+    color: gray;
+}
+
+.label {
+    font-weight: 500;
+}
+
+.key {
+    font-weight: 300;
+    color: gray;
+}
+
+tr {
+    line-height: 200%;
+}
+
+.hobbies .vr {
+    width: 3px;
+    height: 30px;
+    background-color: gray;
+    opacity: initial;
+}
