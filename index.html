@@ -134,10 +134,10 @@
     <!--Statistics-->
     <section id="stats">
       <div class="container py-5">
-        <div class="row justify-content-between">
-          <div class="col-2 d-flex align-items-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-sm-6 col-md-3 d-flex align-items-center">
             <div
-              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
             >
               <img src="./assets/briefcase.svg" alt="office briefcase" />
             </div>
@@ -146,20 +146,20 @@
               <span class="text-uppercase">Projects Completed</span>
             </div>
           </div>
-          <div class="col-2 d-flex align-items-center">
+          <div class="col-10 col-sm-6 col-md-3 d-flex align-items-center">
             <div
-              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
             >
               <img src="./assets/clock.svg" alt="clock" />
             </div>
             <div class="hours mt-3 mt-md-0">
               <span class="display-6">1500</span><br />
-              <span class="text-uppercase">Hours Worked</span>
+              <span class="text-uppercase">Total Hours Worked</span>
             </div>
           </div>
-          <div class="col-2 d-flex align-items-center">
+          <div class="col-10 col-sm-6 col-md-3 d-flex align-items-center">
             <div
-              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
             >
               <img src="./assets/graph.svg" alt="graph rising to the right" />
             </div>
@@ -168,9 +168,9 @@
               <span class="text-uppercase">Years of Experience</span>
             </div>
           </div>
-          <div class="col-2 d-flex align-items-center">
+          <div class="col-10 col-sm-6 col-md-3 d-flex align-items-center">
             <div
-              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
             >
               <img src="./assets/happy-face.svg" alt="happy face" />
             </div>
@@ -185,15 +185,15 @@
 
     <!--About Me-->
     <section id="about">
-      <div class="container col-10 mt-5">
+      <div class="container col-12 col-md-10 mt-5">
         <div class="row d-flex g-0">
-          <div class="col-6 align-self-center">
+          <div class="col-6 align-self-center d-none d-md-block">
             <div
               class="about-img"
               style="background-image: url(./assets/images/about.jpg.webp)"
             ></div>
           </div>
-          <div class="col-6 px-5 py-5">
+          <div class="col-12 col-md-6 px-5 py-5">
             <div class="about-content">
               <h2 class="display-4">About Me</h2>
               <p class="about-me fs-5">
@@ -201,36 +201,42 @@
                 on Upwork with a flawless job success rate. Transitioning
                 expertise through Python and Web Development bootcamps.
               </p>
-              <table class="about-table fs-5">
-                <tbody>
-                  <tr>
-                    <td>
-                      <span class="label">Name:</span>
-                    </td>
-                    <td><span class="key ms-3">Muiz Ahmed</span></td>
-                  </tr>
-                  <tr>
-                    <td><span class="label">Date of birth:</span></td>
-                    <td><span class="key ms-3">November 05, 2002</span></td>
-                  </tr>
-                  <tr>
-                    <td><span class="label">Address:</span></td>
-                    <td><span class="key ms-3">Islamabad, Pakistan</span></td>
-                  </tr>
-                  <tr>
-                    <td><span class="label">Email:</span></td>
-                    <td><span class="key ms-3">muizahmedp@gmail.com</span></td>
-                  </tr>
-                </tbody>
-              </table>
+              <div class="about-table">
+                <table class="fs-6">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span class="label">Name:</span>
+                      </td>
+                      <td><span class="key ms-3">Muiz Ahmed</span></td>
+                    </tr>
+                    <tr>
+                      <td><span class="label">Date of birth:</span></td>
+                      <td><span class="key ms-3">November 05, 2002</span></td>
+                    </tr>
+                    <tr>
+                      <td><span class="label">Address:</span></td>
+                      <td><span class="key ms-3">Islamabad, Pakistan</span></td>
+                    </tr>
+                    <tr>
+                      <td><span class="label">Email:</span></td>
+                      <td>
+                        <span class="key ms-3">muizahmedp@gmail.com</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
 
             <div class="container pe-5 g-0">
               <div
-                class="row hobbies d-flex justify-content-between flex-xl-nowrap flex-wrap py-5 align-content-between g-0"
+                class="row hobbies d-flex justify-content-between py-5 align-content-between g-0"
                 style="row-gap: 10px"
               >
-                <div class="col-6 col-md-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1">
+                <div
+                  class="col-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1"
+                >
                   <div
                     class="icon-circle-small text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1"
                   >
@@ -240,7 +246,9 @@
                     <span>Coloring</span>
                   </div>
                 </div>
-                <div class="col-6 col-md-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1">
+                <div
+                  class="col-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1"
+                >
                   <div
                     class="icon-circle-small text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1"
                   >
@@ -250,7 +258,9 @@
                     <span>Movies</span>
                   </div>
                 </div>
-                <div class="col-6 col-md-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1">
+                <div
+                  class="col-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1"
+                >
                   <div
                     class="icon-circle-small text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1"
                   >
@@ -260,7 +270,9 @@
                     <span>Gardening</span>
                   </div>
                 </div>
-                <div class="col-6 col-md-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1">
+                <div
+                  class="col-4 col-xl-4 flex-xl-nowrap flex-wrap d-flex align-items-center me-1"
+                >
                   <div
                     class="icon-circle-small text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1"
                   >
