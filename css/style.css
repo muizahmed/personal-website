@@ -39,9 +39,9 @@
     border-color: #5B8FB9;
 }
 
-#stats {
+#stats, #resume {
     background-color: whitesmoke;
-    overflow:auto;
+    overflow: auto;
 }
 
 .icon-circle {
@@ -70,11 +70,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    height: 90vh;
+    height: 100vh;
 }
 
 .about-content h2 {
     font-weight: 600;
+}
+
+#about {
+    scroll-margin-top: 3rem;
 }
 
 .about-me {
@@ -99,4 +103,44 @@ tr {
     height: 30px;
     background-color: gray;
     opacity: initial;
+}
+
+.resume-section {
+    padding-top: 7em;
+    padding-bottom: 7em;
+    height: 100vh;
+}
+
+#education {
+    scroll-margin-top: 5rem;
+}
+
+#experience {
+    padding-top: 7em;
+}
+
+.resume-section::-webkit-scrollbar {
+    display: none;
+}
+
+.resume-section {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+.sidebar {
+    position: sticky;
+    top: 0;
+}
+
+.mini-title{
+    color: #03001C;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #03001C;
+}
+
+.resume-section .icon-circle {
+    background-color: #03001C;
 }

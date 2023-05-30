@@ -53,13 +53,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto me-5 justify-content-around">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="#resume">Resume</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Portfolio</a>
@@ -78,7 +78,7 @@
       <div class="container-fluid hero px-0 mx-0 mt-5">
         <div class="row g-0">
           <div
-            class="d-flex flex-column col-sm-12 col-md-6 col-lg-7 title px-5 py-sm-5 justify-content-center"
+            class="d-flex flex-column col-sm-12 col-md-6 col-lg-7 title px-sm-5 py-sm-5 justify-content-center"
           >
             <h1
               class="display-2 fw-bold text-body-emphasis lh-1 mt-5 mb-3 px-5"
@@ -195,6 +195,9 @@
           </div>
           <div class="col-12 col-md-6 px-5 py-5">
             <div class="about-content">
+              <span class="fs-6 text-uppercase mini-title fw-bold px-1"
+                >My Intro</span
+              >
               <h2 class="display-4">About Me</h2>
               <p class="about-me fs-5">
                 BS Computer Science student at University of London, excelling
@@ -290,9 +293,157 @@
     </section>
 
     <!--Resume-->
-    <section id="resume"></section>
+    <section class="resume-section" id="resume">
+      <div class="container px-5 d-flex">
+        <div class="px-3 col-3">
+          <div class="sidebar">
+            <hr />
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item">
+                <a href="#education" class="nav-link active" aria-current="page">
+                  Education
+                </a>
+              </li>
+              <li>
+                <a href="#experience" class="nav-link link-body-emphasis" aria-current="page"> Experience </a>
+              </li>
+            </ul>
+
+            <hr />
+          </div>
+        </div>
+        <div class="section-header px-5 col-9">
+          <div class="section-header-small" id="education">
+            <span class="fs-6 fw-bold mini-title text-uppercase px-1"
+            >My Resume</span
+          >
+          </div>
+          <h3 class="display-5 fw-bold px-0 pb-3">Education</h3>
+          <div class="resume-table">
+            <div class="resume-row d-flex">
+              <div
+                class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
+              >
+                <img src="./assets/education.png" alt="education-icon" /
+                style="height: 50px">
+              </div>
+              <div class="degree-row">
+                <span class="fs-6 fw-bold mini-title">2023-Present</span>
+                <h5 class="fw-bolder">
+                  Google IT Support Professional Certificate
+                </h5>
+                <span>Google Career Certificates</span>
+              </div>
+            </div>
+            <hr />
+            <div class="resume-row d-flex">
+              <div
+                class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
+              >
+                <img src="./assets/education.png" alt="education-icon" /
+                style="height: 50px">
+              </div>
+              <div class="degree-row">
+                <span class="fs-6 fw-bold mini-title">2022-Present</span>
+                <h5 class="fw-bolder">The Complete Web Development Bootcamp</h5>
+                <span>App Brewery London</span>
+              </div>
+            </div>
+            <hr />
+            <div class="resume-row d-flex">
+              <div
+                class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
+              >
+                <img src="./assets/education.png" alt="education-icon" /
+                style="height: 50px">
+              </div>
+              <div class="degree-row">
+                <span class="fs-6 fw-bold mini-title">2021-Present</span>
+                <h5 class="fw-bolder">
+                  Bachelor of Science in Computer Science
+                </h5>
+                <span>Goldsmiths, University of London</span>
+              </div>
+            </div>
+            <hr />
+            <div class="resume-row d-flex">
+              <div
+                class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
+              >
+                <img src="./assets/education.png" alt="education-icon" /
+                style="height: 50px">
+              </div>
+              <div class="degree-row">
+                <span class="fs-6 fw-bold mini-title">2016-2020</span>
+                <h5 class="fw-bolder">GCE O/A Levels</h5>
+                <span>Cambridge International Education</span>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div class="section-header-small" id="experience">
+            <span class="fs-6 fw-bold mini-title text-uppercase px-1"
+            >My Resume</span
+          >
+          </div>
+          <h3 class="display-5 fw-bold px-0 pb-3">Experience</h3>
+          <div class="resume-table">
+            <div class="resume-row d-flex">
+              <div
+                class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
+              >
+                <img src="./assets/job.png" alt="job-icon" /
+                style="height: 50px">
+              </div>
+              <div class="degree-row">
+                <span class="fs-6 fw-bold mini-title">2020-Present</span>
+                <h5 class="fw-bolder">
+                  Freelance Transcriber & Proofreader
+                </h5>
+                <span>Upwork.com</span>
+              </div>
+            </div>
+            <hr />
+            <div class="resume-row d-flex">
+              <div
+                class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
+              >
+                <img src="./assets/job.png" alt="job-icon" /
+                style="height: 50px">
+              </div>
+              <div class="degree-row">
+                <span class="fs-6 fw-bold mini-title">2019-2019</span>
+                <h5 class="fw-bolder">SEO Content Manager</h5>
+                <span>Saleshop.pk</span>
+              </div>
+            </div>
+            <hr />
+            <div class="resume-row d-flex">
+              <div
+                class="icon-circle text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 me-3"
+              >
+                <img src="./assets/job.png" alt="job-icon" /
+                style="height: 50px">
+              </div>
+              <div class="degree-row">
+                <span class="fs-6 fw-bold mini-title">2018-2019</span>
+                <h5 class="fw-bolder">Virtual Assistant</h5>
+                <span>Tshirtplus.au</span>
+              </div>
+            </div>
+            <hr />
+        </div>
+      </div>
+    </section>
+
     <!--Portfolio-->
-    <section id="portfolio"></section>
+    <section id="portfolio">
+      <h1>Lorem ispum</h1>
+      <h1>Lorem ispum</h1>
+      <h1>Lorem ispum</h1>
+      <h1>Lorem ispum</h1>
+      <h1>Lorem ispum</h1>
+    </section>
     <!--Contact Me-->
     <section id="contact"></section>
     <!--Footer-->
